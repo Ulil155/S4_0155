@@ -11,19 +11,19 @@
 
 <body>
     <div class="container mt-3">
-        <h2 class="mt-5">Data Dokter</h2>
+        <h1 text-primary class="mt-5"><b>Data Dokter</b></h1> 
         <p class="lead">Data Dokter</p>
         <div class="d-flex justify-content-between pt-2">
             <div class="d-flex">
             </div>
             <div class="mr-2 mb-2">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">Import</button>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal">Import</button>
             </div>
         </div>
         <table class="table table-bordered">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
+                    <th scope="col">*</th>
                     <th scope="col">Nama</th>
                     <th scope="col">Jabatan</th>
                 </tr>
